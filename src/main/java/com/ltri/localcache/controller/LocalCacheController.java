@@ -14,4 +14,9 @@ public class LocalCacheController {
     public String checkHealth() {
         return "OK";
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "test";
+    }
 }
